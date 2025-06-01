@@ -3,15 +3,15 @@
 ## Descripción del Proyecto
 Este proyecto desarrolla un clasificador automático de imágenes médicas para detectar COVID-19, pulmón normal y neumonía viral a partir de radiografías de tórax. La solución está basada en un modelo de aprendizaje profundo utilizando la arquitectura MobileNetV2 preentrenada en ImageNet. Se implementa un pipeline completo que incluye:
 
-### Preprocesamiento (redimensionado de imágenes)
+- Preprocesamiento (redimensionado de imágenes)
 
-### Entrenamiento del modelo con aumentación de datos
+- Entrenamiento del modelo con aumentación de datos
 
-### Conversión a formato TensorFlow Lite para inferencia eficiente
+- Conversión a formato TensorFlow Lite para inferencia eficiente
 
-### Clasificación de imágenes usando el modelo TFLite
+- Clasificación de imágenes usando el modelo TFLite
 
-### Interfaz gráfica para pruebas rápidas
+- Interfaz gráfica para pruebas rápidas
 
 El proyecto se enfoca en cumplir con los estándares de funcionalidad, eficiencia, mantenibilidad y seguridad para el procesamiento y clasificación de imágenes médicas, lo cual es crucial para sistemas de apoyo clínico.
 
@@ -113,8 +113,5 @@ Dask	Paralelización en Python, fácil integración	Menos maduro que Hadoop, req
 Pandas	Muy fácil de usar, excelente para datos medianos y pequeños	No escala bien para big data
 
 Este proyecto usa principalmente Pandas para la manipulación sencilla y TensorFlow para ML, considerando el tamaño manejable del dataset.
-
-Innovación y Valor Añadido
-El uso de TensorFlow Lite junto a MobileNetV2 permite desplegar un modelo preciso y eficiente en dispositivos con recursos limitados (como móviles o equipos clínicos con hardware modesto). El pipeline automatizado facilita la reproducibilidad del proyecto y permite la integración fácil en soluciones reales de diagnóstico asistido.
 
 ### Video Explicativo
