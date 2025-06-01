@@ -1,21 +1,21 @@
 # ClasificadorCovid19
 
-##Descripción del Proyecto
+## Descripción del Proyecto
 Este proyecto desarrolla un clasificador automático de imágenes médicas para detectar COVID-19, pulmón normal y neumonía viral a partir de radiografías de tórax. La solución está basada en un modelo de aprendizaje profundo utilizando la arquitectura MobileNetV2 preentrenada en ImageNet. Se implementa un pipeline completo que incluye:
 
-##Preprocesamiento (redimensionado de imágenes)
+## Preprocesamiento (redimensionado de imágenes)
 
-##Entrenamiento del modelo con aumentación de datos
+## Entrenamiento del modelo con aumentación de datos
 
-##Conversión a formato TensorFlow Lite para inferencia eficiente
+## Conversión a formato TensorFlow Lite para inferencia eficiente
 
-##Clasificación de imágenes usando el modelo TFLite
+## Clasificación de imágenes usando el modelo TFLite
 
-##Interfaz gráfica para pruebas rápidas
+## Interfaz gráfica para pruebas rápidas
 
 El proyecto se enfoca en cumplir con los estándares de funcionalidad, eficiencia, mantenibilidad y seguridad para el procesamiento y clasificación de imágenes médicas, lo cual es crucial para sistemas de apoyo clínico.
 
-###Contenido del Repositorio
+### Contenido del Repositorio
 resize_images.py : Script para redimensionar y organizar las imágenes del dataset.
 
 train_model.py : Entrena el modelo MobileNetV2 con los datos preprocesados.
@@ -32,18 +32,18 @@ README.md : Documentación del proyecto (este archivo).
 
 classification_results.csv : Archivo de resultados generado tras clasificar un conjunto de imágenes.
 
-Requisitos
-Python 3.7 o superior
+### Requisitos
+- Python 3.7 o superior
 
-TensorFlow 2.x
+- TensorFlow 2.x
 
-OpenCV (opencv-python)
+- OpenCV (opencv-python)
 
-Pillow
+- Pillow
 
-Matplotlib
+- Matplotlib
 
-NumPy
+- NumPy
 
 Instalación rápida de dependencias:
 
@@ -90,7 +90,7 @@ python app_classifier.py
 ```
 Permite seleccionar imágenes y obtener predicciones en una ventana sencilla.
 
-Resultados esperados
+### Resultados esperados
 Modelos entrenados capaces de clasificar correctamente radiografías en las tres categorías.
 
 Archivo CSV con resultados detallados de clasificación.
