@@ -60,38 +60,34 @@ python resize_images.py
 Redimensiona todas las imágenes a 150x150 píxeles y las organiza en carpetas por clase.
 
 2. Entrenamiento del modelo
-bash
-Copiar
-Editar
+```bash
 python train_model.py
+```
 Entrena el modelo MobileNetV2 usando los datos redimensionados. Se generan gráficos de precisión y se guarda el mejor modelo (best_model.h5).
 
 3. Conversión a TensorFlow Lite
-bash
-Copiar
-Editar
+
+```bash
 python convertirH5.py
+```
 Convierte el modelo Keras al formato .tflite para inferencias rápidas en dispositivos con recursos limitados.
 
-4. Clasificación de imágenes con TFLite
-bash
-Copiar
-Editar
+5. Clasificación de imágenes con TFLite
+```bash
 python classify_tflite.py --input ruta/a/carpeta_con_imagenes
+```
 Clasifica todas las imágenes en la carpeta indicada y guarda los resultados en classification_results.csv.
 
-5. Ejecución automática con Pipeline
-bash
-Copiar
-Editar
+6. Ejecución automática con Pipeline
+```bash
 python pipeline_master.py
+```
 Ejecuta automáticamente todos los pasos anteriores de forma secuencial.
 
-6. Interfaz gráfica para clasificación (opcional)
-bash
-Copiar
-Editar
+7. Interfaz gráfica para clasificación (opcional)
+```bash
 python app_classifier.py
+```
 Permite seleccionar imágenes y obtener predicciones en una ventana sencilla.
 
 Resultados esperados
