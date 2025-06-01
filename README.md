@@ -107,10 +107,13 @@ Mantenibilidad	Código modular y documentado en scripts separados
 Seguridad	No se exponen datos sensibles, solo imágenes de prueba
 
 ### Comparativa Tecnológica: Hadoop vs. Dask vs. Pandas
-Tecnología	Ventajas	Desventajas
-Hadoop	Escalabilidad masiva, manejo de big data	Complejidad, sobrecarga para datos pequeños
-Dask	Paralelización en Python, fácil integración	Menos maduro que Hadoop, requiere tuning
-Pandas	Muy fácil de usar, excelente para datos medianos y pequeños	No escala bien para big data
+
+| Tecnología | Ventajas                                                    | Desventajas                                 |
+| ---------- | ----------------------------------------------------------- | ------------------------------------------- |
+| Hadoop     | Escalabilidad masiva, manejo de big data                    | Complejidad, sobrecarga para datos pequeños |
+| Dask       | Paralelización en Python, fácil integración                 | Menos maduro que Hadoop, requiere tuning    |
+| Pandas     | Muy fácil de usar, excelente para datos medianos y pequeños | No escala bien para big data                |
+
 
 Este proyecto usa principalmente Pandas para la manipulación sencilla y TensorFlow para ML, considerando el tamaño manejable del dataset.
 
