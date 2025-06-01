@@ -124,3 +124,5 @@ Seguridad	No se exponen datos sensibles, solo imágenes de prueba
 Este proyecto usa principalmente Pandas para la manipulación sencilla y TensorFlow para ML, considerando el tamaño manejable del dataset.
 
 ### Video Explicativo
+
+Link: https://youtu.be/WcDqYwh0o94 
