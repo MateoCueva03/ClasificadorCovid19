@@ -1,4 +1,10 @@
-# ClasificadorCovid19
+# CASO A SOLUCIONAR CON INNOVACIÓN
+
+En regiones con acceso limitado a equipos médicos especializados, el diagnóstico oportuno de
+COVID-19 mediante radiografías pulmonares fue y será muy crítico. Además, muchos hospitales
+rurales o clínicas pequeñas no tienen Tomógrafos o Equipos de Rx, y de tener computadoras casi
+ninguna tendrá capacidad de GPU (tarjetas gráficas) y dependen de computadoras básicas (8-12
+GB de RAM).
 
 ## Descripción del Proyecto
 Este proyecto desarrolla un clasificador automático de imágenes médicas para detectar COVID-19, pulmón normal y neumonía viral a partir de radiografías de tórax. La solución está basada en un modelo de aprendizaje profundo utilizando la arquitectura MobileNetV2 preentrenada en ImageNet. Se implementa un pipeline completo que incluye:
