@@ -49,10 +49,14 @@ Instalación rápida de dependencias:
 
 ```bash
 pip install tensorflow opencv-python pillow matplotlib numpy
+```
+
 Uso
 1. Preprocesamiento: Redimensionar imágenes
 ```bash
 python resize_images.py
+```
+
 Redimensiona todas las imágenes a 150x150 píxeles y las organiza en carpetas por clase.
 
 2. Entrenamiento del modelo
